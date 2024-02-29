@@ -11,6 +11,9 @@ RUN python3 -m pip --no-cache-dir install --upgrade \
     gpustat==0.6.0 \
     sentence_transformers==2.1.0 \
     huggingface_hub==0.10.0 \
+    kiwipiepy==0.16.2 \
+    python-mecab-kor==1.2.8 \
+    pandas==1.5.3 \
     gdown \
     && \
 apt update && \
